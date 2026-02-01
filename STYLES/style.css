@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  justify-content: center;
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding-top: 92px;
+  padding-left: 100px;
+  padding-right: 25px;
+  background-color:rgb(243, 243, 243) ;
+}
+
+@media (min-width:320px) and (max-width: 480px) 
+{
+  body{
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+}
+
+@media (min-width:490px) and (max-width: 780px) {
+   body{
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+}

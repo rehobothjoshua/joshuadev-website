@@ -1,0 +1,94 @@
+
+ul{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 0;
+    background-color: white;
+    border: none;
+    z-index: 2;
+
+}
+ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 120px;
+    flex-shrink: 0;
+    margin-right: 2px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+ul li:hover{
+    background-color: #f7f7f7;
+
+}
+ul li div{
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;    
+}
+.icones{
+    height: 35px;
+    margin-bottom: 10px;
+
+}
+
+@media (min-width:320px) and (max-width: 480px) {
+  ul{
+    position: fixed;
+    right: 0px;
+    top: auto;
+    height:50px;
+    bottom: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between; 
+  }
+  ul li{
+    height: 50px;
+    margin-top: 18px;
+    margin-left: auto;
+  }
+  .icones{
+    height: 20px;
+  }
+  ul li div{
+    opacity: 0;
+  }
+}
+
+@media (min-width:490px) and (max-width: 780px) {
+  ul{
+    position: fixed;
+    right: 0px;
+    top: auto;
+    height:50px;
+    bottom: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between; 
+  }
+  ul li{
+    height: 50px;
+    margin-top: 18px;
+    margin-left:15px ;
+    margin-right: 15px;
+  }
+  .icones{
+    height: 20px;
+  }
+  ul li div{
+    opacity: 0;
+  }
+}
